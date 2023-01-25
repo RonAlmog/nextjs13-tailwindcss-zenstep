@@ -29,6 +29,7 @@ type Query {
     offset: String
     sort: String
     keywords: String
+    categories: String
   ): Root
     @rest(
       endpoint: "http://api.mediastack.com/v1/news"
