@@ -1,0 +1,4 @@
+configurationset:
+  - configuration:
+      name: curl_import_config
+      authentication_b1779d5e15: springe::stepzen.net+1000::6e6d16c3f38a5696e122c8d19cdd2117a6dc89b3bd9ec059ce358a87b7724bd1
