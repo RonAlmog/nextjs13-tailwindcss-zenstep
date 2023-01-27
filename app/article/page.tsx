@@ -24,9 +24,7 @@ function ArticlePage({ searchParams }: Props) {
           />
         )}
         <div>
-          <h1 className="headerTitle px-0 no-underline pb-2">
-            {article.title}
-          </h1>
+          <h1 className="headerTitle">{article.title}</h1>
           <div className="flex divide-x-2 space-x-4">
             <h2 className="font-bold">By: {article.author || "unknown"}</h2>
             <h2 className="font-bold pl-4">Source: {article.source}</h2>
