@@ -7,7 +7,7 @@ type Props = {
 
 function Article({ article }: Props) {
   return (
-    <article className="bg-slate-100 dark:bg-slate-800 flex flex-col rounded-lg shadow-sm hover:scale-105 hover:bg-slate-200 hover:shadow-lg transition-all duration-200 ease-out">
+    <article className="bg-slate-100 dark:bg-slate-800 flex flex-col rounded-lg shadow-lg hover:scale-105 hover:bg-slate-200 hover:shadow-xl transition-all duration-200 ease-out">
       {article && (
         <img
           src={article.image}
